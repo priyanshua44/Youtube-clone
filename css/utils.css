@@ -1,0 +1,78 @@
+.keywords{
+    height: 10vh;
+    display: flex;    
+    align-items: center;
+}
+
+.key button{
+    color: white;
+    background-color: rgb(62, 61, 61);
+    /* padding: 0 3vw 0 3vw; */
+    border: 0.1px solid rgb(80, 70, 70);
+    border-radius: 20px;
+    margin: 7px;
+    font-size: 15px;
+}
+
+.key button:hover{
+    background-color: rgb(115, 112, 112);
+}
+
+#btn {
+    cursor: pointer;
+}
+
+.key button p{
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+
+.second{
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.right{
+    display: grid;
+    grid-template-rows: 10vh auto;
+}
+
+.keywords{
+    max-width: 94.5vw;
+    display: flex;
+    overflow: scroll;
+    /* position: fixed; */
+}
+
+
+.video{
+    width: 94.5vw;
+    /* height: 50vh; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card{
+    margin: 2vh 1vw;
+}
+
+.text{
+    color: white;
+}
+
+.text p{
+    cursor: pointer;
+}
+
+.img{
+    cursor: pointer;
+}
+
+
+
+.center{
+    text-align: center;
+}
+

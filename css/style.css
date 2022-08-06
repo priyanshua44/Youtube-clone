@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 89vh; */
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* position: fixed; */
+    width: 5.5vw;
+    background-color: #212121;
+}
+
+.right{
+    width: 94.5vw;
+}
+
+.home img{
+    height: 10vh;
+    /* width: 5vw; */
+    margin-left: 1vw;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.home img :hover{
+    color: white;
+}
+
+
+.explore img{
+    height: 11vh;
+    width: 11w;
+    margin-left: 0.6vw;
+    margin-top: 2vh;
+    cursor: pointer;
+
+}
+
+
+.shorts img{
+    height: 12vh;
+    width: 12w;
+    margin-left: 0.7vw;
+    margin-top: 2vh;
+    cursor: pointer;
+
+}
+
+
+.subscriptions img{
+    height: 11vh;
+    width: 5vw;
+    margin-left: 0.3vw;
+    margin-top: 0vh;
+    cursor: pointer;
+
+}
+
+
+.library img{
+    height: 10vh;
+    width: 10w;
+    margin-left: 0.6vw;
+    margin-top: 4vh;
+    cursor: pointer;
+
+}
+
+.home{
+    width: 5.5vw;
+}
+
+.explore{
+    width: 5.5vw;
+}
+
+.shorts{
+    width: 5.5vw;
+}
+
+.subscriptions{
+    width: 5.5vw;
+}
+
+.library{
+    width: 5.5vw;
+}

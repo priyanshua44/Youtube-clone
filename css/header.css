@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #212121;
+}
+
+.header {
+    background-color: #212121;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 11vh;
+    /* position: fixed; */
+}
+
+.nav img{
+    height: 5vh;
+    width: 1.8vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    cursor: pointer;
+} 
+
+.logo img{
+    height: 7vh;
+    width: 8vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+.search input{
+    background-color: #0f0f0f;
+    border: #0f0f0f;
+    color: white;
+    height: 7vh;
+    width: 40vw;
+    margin-top: 1vw;
+    margin-left: 12vw;
+    padding: 0 0.5vw;
+    cursor: text;
+
+}
+
+.search ::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.searchb img{
+    height: 7vh;
+    width: 5vw;   
+    margin-top: 2.1vh;
+    cursor: pointer;
+
+}
+
+.mic img{
+    height: 7vh;
+    width: 3vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    cursor: pointer;
+
+}
+
+.upload img{
+    height: 7vh;
+    width: 3vw;
+    margin-top: 2vh;
+    margin-left: 11vw;
+    cursor: pointer;
+
+}
+
+.notif img{
+    height: 7vh;
+    width: 4vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    cursor: pointer;
+
+}
+
+.account img{
+    height: 7vh;
+    width: 3.5vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    cursor: pointer;
+
+}
