@@ -21,7 +21,7 @@ Beginners can get idea to make sites like youtube.
 
 ## Live link for the project
 
-https://priyanshua44.github.io/Youtube-clone/
+https://youtubeclone-pj.netlify.app/
 
 
 ## Tech Stack Used
